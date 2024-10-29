@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM docker.io/library/openjdk:17
 
 ADD build/libs/spring-petclinic-3.3.0.jar app.jar
 
